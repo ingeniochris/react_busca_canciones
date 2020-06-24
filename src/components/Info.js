@@ -12,7 +12,8 @@ const Info = ({info}) => {
                 Información Artista
             </div>
             <div className="card-body">
-                <img src={info.strArtistThumb} alt="artista"/>
+    <h2 className="card-text">{strArtist}</h2>
+                <img src={strArtistThumb} alt="artista"/>
                 <p className="card-text">Genero: {strGenre}</p>
                 <h2 className="card-text">Boigrafías: </h2>
                 <p className="card-text">{strBiographyES}</p>
